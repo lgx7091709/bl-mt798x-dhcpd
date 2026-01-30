@@ -15,6 +15,8 @@ elif [ "$VERSION" = "2024" ]; then
     tools_folder="./atf-20240117-bacca82a8/tools/dev/gpt_editor"
 elif [ "$VERSION" = "2025" ]; then
     tools_folder="./atf-20250711/tools/dev/gpt_editor"
+elif [ "$VERSION" = "2026" ]; then
+    tools_folder="./atf-20260123/tools/dev/gpt_editor"
 else
     echo "Error: Unsupported VERSION. Please specify VERSION=2022/2023/2024/2025."
     exit 1
